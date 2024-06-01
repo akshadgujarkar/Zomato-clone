@@ -1,0 +1,429 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  padding: 40px;
+  padding-left: 62px;
+  justify-content: space-evenly;
+}
+
+#app {
+  margin-right: 45%;
+  color: rgb(255, 255, 255);
+}
+
+.material-symbols-outlined {
+  color: white;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin: 15px;
+  font-size: 17px;
+  color: white;
+}
+
+nav {
+  margin-right: 40px;
+}
+
+.zomato {
+  display: flex;
+  justify-content: center;
+  font-size: 78px;
+  font-style: italic;
+  letter-spacing: 7px;
+  padding: 25px;
+}
+
+.food_drink {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.searchbar {
+  padding: 34px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: whitesmoke;
+  width: 50vw;
+  margin: 40px;
+  height: fit-content;
+  margin-left: 40px;
+
+  border-radius: 18px;
+}
+
+.div2 input {
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+.nagpur {
+  padding-right: 40px;
+}
+
+.div1 {
+  display: flex;
+  justify-content: center;
+}
+
+.div2 {
+  display: flex;
+  justify-content: center;
+}
+
+#icon1 {
+  padding-right: 10px;
+  color: #ff7e8b;
+}
+
+#icon2 {
+  padding: 0px 10px;
+  color: black;
+}
+
+input {
+  border: 0;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.background {
+  background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+  background-size: 120%;
+  /* Ensures the image covers the entire screen */
+  background-repeat: no-repeat;
+  /* Prevents the image from repeating */
+  background-position: center center;
+  /* Centers the image */
+  /* background-attachment: fixed; Keeps the background fixed during scroll */
+  height: 75vh;
+  opacity: 0.99;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 57px;
+}
+
+.box {
+  margin: 0px;
+
+  width: 25vw;
+  height: 30vh;
+  border-radius: 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  border: 1px solid rgb(211, 198, 198);
+}
+
+.bottom {
+  background-color: white;
+  width: 25vw;
+  border-radius: 0px 0px 1.9rem 1.9rem;
+  padding: 20px;
+}
+
+.p1 {
+  font-weight: 900;
+}
+
+.p2 {
+  font-weight: 300;
+}
+
+.box {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.collections {
+  margin: 52px 100px;
+  background-color: white;
+  padding: 10px;
+  font-weight: 200;
+}
+
+#collections {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+#Explore {
+  font-weight: 200;
+}
+
+#collect {
+  position: relative;
+  left: 197px;
+  color: #ff7e8b;
+}
+
+#right-arrow {
+  position: relative;
+  left: 210px;
+  color: #ff7e8b;
+  opacity: 2;
+}
+
+.row2 {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 35px;
+  margin-right: 35px;
+  height: 350px;
+  padding: 0px 50px;
+}
+
+.cafe {
+  /* padding: 128px; */
+  background-color: #ff7e8b;
+  margin: 4px;
+  border-radius: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  padding: 0px 0px 11px 11px;
+}
+
+.content p {
+  color: white;
+  font-size: large;
+  font-weight: 300;
+}
+
+#Places {
+  font-weight: 200;
+  font-size: medium;
+}
+
+.popular {
+  padding: 47px 85px 40px;
+  font-size: 40px;
+  font-weight: 400;
+  color: rgb(88, 88, 88);
+  border: 1px solid whitesmoke;
+}
+
+#nagpur {
+  font-weight: 800s;
+  font-size: 40px;
+}
+
+.columns {
+  margin: 30px;
+  padding-left: 90px;
+  display: grid;
+  margin: 10px;
+
+  grid-template-columns: 25vw 25vw 25vw;
+  grid-template-rows: 12vh 12vh 12vh;
+}
+
+.dharampeth {
+  width: 23vw;
+  position: relative;
+  display: flex;
+
+  height: 10vh;
+
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  border-radius: 9px;
+  border: 2.5px solid rgb(212, 208, 208);
+}
+
+.dharampeth p {
+  padding: 8.5px;
+  font-size: bold;
+
+  letter-spacing: 2px;
+}
+
+#see-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#see-more p {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.zaga {
+  font-size: 24px;
+  font-weight: 400;
+
+  width: 23vw;
+}
+
+.zaga2 {
+  font-weight: 300;
+
+  width: 23vw;
+}
+
+.abc {
+  display: flex;
+  flex-direction: column;
+}
+
+.phonerow {
+  width: 100%;
+  background-color: rgb(248, 248, 248);
+  height: 45vh;
+  display: flex;
+  justify-content: space-around;
+  margin: 55px 0px;
+  padding: 55px 0px;
+
+}
+
+.phone img {
+  background-color: rgb(248, 248, 248);
+  height: 45vh;
+}
+
+.ring {
+  display: flex;
+}
+
+.zomato2 p {
+  font-size: medium;
+}
+
+#app2 {
+  color: black;
+  font-size: 28px;
+  padding: 0px 0px 30px 0px;
+  font-weight: bold;
+}
+
+#link {
+  font-weight: 200;
+}
+
+.input {
+  margin-top: 62px;
+}
+
+#applink {
+  background-color: #ff7e8b;
+
+}
+
+.input2 {
+  display: flex;
+  margin-top: 20px;
+
+
+}
+
+.input2 input {
+  width: 20vw;
+  height: 7vh;
+  margin-right: 10px;
+  border-radius: 5px;
+  display: flex;
+  border: 1px solid rgb(214, 212, 212);
+}
+
+.input2 button {
+  border-radius: 5px;
+  display: flex;
+  height: 7vh;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid #000;
+  padding: 18px;
+}
+
+.explore {
+  font-size: 30px;
+  background-color: rgb(255, 255, 255);
+  font-weight: 400;
+  padding-left: 8vw;
+}
+
+.four {
+  margin-left: 8vw;
+
+  margin-top: 40px;
+  width: 70vw;
+
+}
+
+.rect {
+  word-spacing: 10px;
+  font-weight: 400;
+  box-sizing: border-box;
+  padding: 14px;
+  border-radius: 5px;
+  height: 7vh;
+  margin-bottom: 25px;
+  border: 1px solid rgb(243, 239, 239);
+}
+
+.wheatc {
+  width: 100%;
+  height: 80vh;
+}
+
+#zomato {
+
+  height: 0%;
+  padding: 50px;
+  font-weight: bolder;
+  font-size: 40px;
+  letter-spacing: 0px;
+  font-style: italic;
+
+}
+
+.frows {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 10px;
+}
+
+#aboutZ {
+  font-weight: 5;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.list p {
+  font-size: small;
+  font-weight: 300;
+  margin-top: 15px;
+  text-transform: capitalize;
+}
+
+#footer {
+  font-weight: 200;
+  padding: 80px;
+
+}
